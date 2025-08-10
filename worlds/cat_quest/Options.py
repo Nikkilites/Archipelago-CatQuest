@@ -13,28 +13,28 @@ class ProgressiveSkills(Toggle):
     display_name = "Progressive Skills"
     default = True
 
-# """Chests
+# """Chests (Choice)
 # Chestsanity: All chests are included and all items that can be found in chests are added to the itempool
 # Golden Chests: Only golden chests are included, and items that can be found in these chests are added to the itempool
 # No Chests: No chests are included and weapons and armor will not be found in the itempool"""
 
-# """Side Quests
+# """Side Quests (Toggle)
 # Yes: All quests are added as locations
 # No: Only the main quests are added as locations"""
 
-# """Progressive Levelup
-# Yes: EXP will be given to youSkills and all upgrades will appear in the item pool, and you cannot upgrade skills by purchasing them in the Arcane Temples
-# No: Skills will appear in the item pool once, and will be purchaseable in the Arcane Temples hereafter"""
+# """Levelup (Range)
+# If 0 is picked, you will be playing with "lvl 1 cat" modifyer, and exp is not available to gain whatsoever
+# Range goes between 0 and 100. Default is the level you'd be at had you done all quests in the vanilla game"""
 
-# """Weapons and Armor slots
+# """Weapons and Armor slots (Choice)
 # Yes: Being able to equip weapons and armor is unlocked through archipelago
 # No: You can equip any weapons and armor"""
 
-# """Caves
+# """Caves (Choice)
 # Yes: Completing caves are added as locations
 # No: No caves are added as locations"""
 
-# """Exploration
+# """Exploration (Choice)
 # Explorer: All monuments and temples are added as locations
 # Temples: Only temples are added as locations
 # Monuments: Only monuments are added as locations
