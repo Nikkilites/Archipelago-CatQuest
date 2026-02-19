@@ -47,14 +47,12 @@ misc = [
 
 fillers = [
     # Gold
-    {"name": "50 Gold", "inGameId": "gold.50"},
     {"name": "500 Gold", "inGameId": "gold.500"},
     {"name": "750 Gold", "inGameId": "gold.750"},
     {"name": "1000 Gold", "inGameId": "gold.1000"},
     {"name": "5000 Gold", "inGameId": "gold.5000"},
 
     # Exp
-    {"name": "500 Exp", "inGameId": "exp.500"},
     {"name": "1000 Exp", "inGameId": "exp.1000"},
     {"name": "5000 Exp", "inGameId": "exp.5000"},
     {"name": "7500 Exp", "inGameId": "exp.7500"},
