@@ -734,7 +734,7 @@ item_data = [
 ]
 
 location_data = [
-    {"name": location["name"], "id": location["inGameId"]}
+    {"name": location["name"], "id": location["inGameId"], "art": location["art"], "hasFist": location["hasFist"]}
     for location in all_locations
 ]
     
