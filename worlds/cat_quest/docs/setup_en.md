@@ -33,6 +33,7 @@ You can continue your saved game by clicking Continue like in vanilla Cat Quest.
 
 ## Help Checklist!
 
+- Make sure you have a 32-bit version of Cat Quest
 - Make sure installed the correct version of BepInEx (x86, version 5.4.20 or newer. not x64 and not version 6.0.0+. Also make sure you installed the version that matches your OS)
 - Make sure the contents of the mod zip file are put directly in the root cat quest folder, not wrapped in a folder by the name of the downloaded Zip file.
 - Make sure your game is in English.
