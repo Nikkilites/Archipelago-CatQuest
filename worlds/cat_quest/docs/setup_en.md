@@ -32,8 +32,13 @@ Depending on how much you've played the game beforehand, the menu may look diffe
 You can continue your saved game by clicking Continue like in vanilla Cat Quest. This will automatically connect you to the slot you last played on.
 
 ## Help Checklist!
-
+Go through this checklist if you __do not__ see the archipawlago menu screen when you open the game
 - Make sure you have a 32-bit version of Cat Quest
 - Make sure installed the correct version of BepInEx (x86, version 5.4.20 or newer. not x64 and not version 6.0.0+. Also make sure you installed the version that matches your OS)
 - Make sure the contents of the mod zip file are put directly in the root cat quest folder, not wrapped in a folder by the name of the downloaded Zip file.
 - Make sure your game is in English.
+
+Go through this checklist if you __do__ see the archipawlago menu screen when you open the game
+- Check the bepinex plugin folder and look for c-wspp.dll. If this is not to be found, your antivirus may have deleted it when you installed the mod. Make sure it is kept in the folder, then try to log in again!
+
+Still lost? Ask away!
