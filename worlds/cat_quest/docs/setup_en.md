@@ -5,6 +5,7 @@
 - Cat Quest from: [Steam](https://store.steampowered.com/app/593280/Cat_Quest/)
     - Games from other storefronts may work, but only if it's the 32 bit version. (EGS, Amazon and GOG are confirmed to be the 64 bit version unfortunately)
     - Only the english version of the game works
+    - Cat Quest has been reported as working on Steam Deck, when played in Desktop Mode
 - BepInEx from: [GitHub](https://github.com/BepInEx/BepInEx/releases)
 - Cat Quest Randomizer from: [GitHub](https://github.com/Nikkilites/CatQuest-Randomizer/releases)
 - Cat Quest World from: [GitHub](https://github.com/Nikkilites/Archipelago-CatQuest/releases)
@@ -31,14 +32,20 @@ Depending on how much you've played the game beforehand, the menu may look diffe
 
 You can continue your saved game by clicking Continue like in vanilla Cat Quest. This will automatically connect you to the slot you last played on.
 
-## Help Checklist!
+## Troubleshooting Checklist!
+
 Go through this checklist if you __do not__ see the archipawlago menu screen when you open the game
 - Make sure you have a 32-bit version of Cat Quest
 - Make sure installed the correct version of BepInEx (x86, version 5.4.20 or newer. not x64 and not version 6.0.0+. Also make sure you installed the version that matches your OS)
 - Make sure the contents of the mod zip file are put directly in the root cat quest folder, not wrapped in a folder by the name of the downloaded Zip file.
 - Make sure your game is in English.
 
-Go through this checklist if you __do__ see the archipawlago menu screen when you open the game
-- Check the bepinex plugin folder and look for c-wspp.dll. If this is not to be found, your antivirus may have deleted it when you installed the mod. Make sure it is kept in the folder, then try to log in again!
+Go through this checklist if you __do__ see the archipawlago menu screen and are unable to log
+- Make sure your login info is case sensitive and otherwise correct
+- Make sure the server and room is open and available
+- Check the bepinex plugins folder and look for c-wspp.dll. If this is not to be found, your antivirus may have deleted it when you installed the mod. Make sure it is kept in the folder, then try to log in again!
+- Verify that you can connect to the server and slot through the standard AP Text client. If this also fails, this is highly likely a form of network or server issue, and not related to Cat Quest
+- If you are returning to an AP slot you have previously played, but are now unable to reach using the "continue" button, check whether your port number/server address has changed.
+    - If it has, find the SaveData.JSON file often located here: ...\SteamLibrary\steamapps\common\Cat Quest\ArchipelagoRandomizer\SaveData.JSON, and change it to the correct login info. After this you can reopen the game and try to click continue again
 
 Still lost? Ask away!
