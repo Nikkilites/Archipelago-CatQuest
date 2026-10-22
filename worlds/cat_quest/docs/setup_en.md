@@ -5,7 +5,7 @@
 - Cat Quest from: [Steam](https://store.steampowered.com/app/593280/Cat_Quest/)
     - Games from other storefronts may work, but only if it's the 32 bit version. (EGS, Amazon and GOG are confirmed to be the 64 bit version unfortunately)
     - Only the english version of the game works
-    - Cat Quest has been reported as working on Steam Deck, when played in Desktop Mode
+    - Cat Quest has been reported as working on Windows, Linux and Steam Deck *(when played in Desktop Mode)*
 - BepInEx from: [GitHub](https://github.com/BepInEx/BepInEx/releases)
 - Cat Quest Randomizer from: [GitHub](https://github.com/Nikkilites/CatQuest-Randomizer/releases)
 - Cat Quest World from: [GitHub](https://github.com/Nikkilites/Archipelago-CatQuest/releases)
