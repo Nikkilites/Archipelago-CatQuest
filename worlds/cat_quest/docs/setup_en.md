@@ -46,7 +46,7 @@ Go through this checklist if you __do__ see the archipawlago menu screen and are
 - Verify that c-wspp.dll is in your mod installation located here `...Cat Quest\BepInEx\plugins\c-wspp.dll`.
     - If this is not there, your antivirus may have deleted it when you installed the mod. Make sure it is kept in the folder, then try to log in again!
 - Verify that you can connect to the server and slot through the standard AP Text client. If this also fails, this is highly likely a form of network or server issue, and not related to Cat Quest
-- If you are returning to an AP slot you have previously played, but are now unable to reach using the "continue" button, check whether your port number/server address has changed.
+- If you are returning to an AP slot you have previously played, but are now unable to connect to using the "continue" button, check whether your port number/server address has changed.
     - If it has, find the SaveData.json file located here: `...Cat Quest\ArchipelagoRandomizer\SaveData.json`, and change it to the correct login info. After this you can reopen the game and try to click continue again
 
 Still lost? Ask away!
