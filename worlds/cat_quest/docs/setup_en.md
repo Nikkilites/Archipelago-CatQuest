@@ -32,6 +32,14 @@ Depending on how much you've played the game beforehand, the menu may look diffe
 
 You can continue your saved game by clicking Continue like in vanilla Cat Quest. This will automatically connect you to the slot you last played on.
 
+## Known Bugs
+- It is possible to land in water by landing on specific pieces of land or the edge of the water, when you have only received the Royal Art of Flight.
+- Going back and forth between the in game menu and AP gameplay, without closing the game down entirely inbetween, can create an issue where multiple sessions are running at once. If you close down the game inbetween sessions it shouldn't happen, but if it has happened to you, it's possible that some items have been either duplicated or lost, including spells and the ability to walk on water or fly.
+    - If this has already happened to you, and you are missing an important item, you can get it by doing the following:
+        - check the on-site tracker to see the `Last Order Received` of the item that is missing.
+        - Go to `...Cat Quest\ArchipelagoRandomizer\SaveData\ItemIndex.json` and change the number within it to the items `Last Order Received`, but subtract one.
+        - Reopen the game, connect to the slot, and the item you were missing should be given to you.
+
 ## Troubleshooting Checklist!
 
 Go through this checklist if you __do not__ see the archipawlago menu screen when you open the game
@@ -47,6 +55,6 @@ Go through this checklist if you __do__ see the archipawlago menu screen and are
     - If this is not there, your antivirus may have deleted it when you installed the mod. Make sure it is kept in the folder, then try to log in again!
 - Verify that you can connect to the server and slot through the standard AP Text client. If this also fails, this is highly likely a form of network or server issue, and not related to Cat Quest
 - If you are returning to an AP slot you have previously played, but are now unable to connect to using the "continue" button, check whether your port number/server address has changed.
-    - If it has, find the SaveData.json file located here: `...Cat Quest\ArchipelagoRandomizer\SaveData.json`, and change it to the correct login info. After this you can reopen the game and try to click continue again
+    - If it has, find the RoomInfo.json file located here: `...Cat Quest\ArchipelagoRandomizer\SaveData\RoomInfo.json`, and change it to the correct login info. After this you can reopen the game and try to click continue again
 
-Still lost? Ask away!
+Still having issues? Ask away!
